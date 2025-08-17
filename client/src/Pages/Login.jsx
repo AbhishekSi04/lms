@@ -4,7 +4,6 @@ import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import Layout from "../Layout/Layout";
 import { login } from "../Redux/Slices/AuthSlice";
-import InputBox from "../Components/InputBox/InputBox";
 import { FaUser, FaLock, FaEye, FaEyeSlash, FaRocket } from "react-icons/fa";
 
 export default function Login() {

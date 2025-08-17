@@ -8,7 +8,6 @@ import InputBox from "../../Components/InputBox/InputBox";
 
 export default function ForgotPassword() {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
 
   const [isLoading, setIsLoading] = useState(false);
   const [email, setEmail] = useState("");
