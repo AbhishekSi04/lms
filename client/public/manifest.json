@@ -1,0 +1,18 @@
+{
+  "name": "LMS - Learning Management System",
+  "short_name": "LMS",
+  "description": "A comprehensive learning management system built with MERN stack",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#fbbf24",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+} 
