@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Layout from "../../Layout/Layout";
 import { BiRupee } from "react-icons/bi";
-import { FaCrown, FaShield, FaInfinity, FaRocket, FaStar } from "react-icons/fa";
+import { FaCrown, FaInfinity, FaRocket, FaStar } from "react-icons/fa";
 import {
   getRazorPayId,
   purchaseCourseBundle,
@@ -235,9 +235,6 @@ export default function Checkout() {
                   </div>
                   
                   <div className="flex items-center space-x-4 p-4 bg-gradient-to-r from-warning-50 to-warning-100 dark:from-warning-900/20 dark:to-warning-800/20 rounded-xl">
-                    <div className="w-10 h-10 bg-gradient-to-r from-warning-500 to-warning-600 rounded-xl flex items-center justify-center">
-                      <FaShield className="text-white" />
-                    </div>
                     <div>
                       <h3 className="font-semibold text-neutral-800 dark:text-neutral-200">Money Back Guarantee</h3>
                       <p className="text-sm text-neutral-600 dark:text-neutral-400">100% refund on cancellation</p>
