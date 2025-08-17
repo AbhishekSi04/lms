@@ -28,7 +28,7 @@ const corsOptions = {
             "http://localhost:5173",
             "http://localhost:3000",
             "https://lms-delta-steel.vercel.app",
-            "https://lms-g21x.onrender.com"
+            "https://lms-g21x.onrender.com",
         ];
         
         // Add CLIENT_URL from environment if it exists
